@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
+        rel="stylesheet">
+    <title>Pizza - Dashboard</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+        <header class="header-content">
+            <h3 class="title">Pizza Dash</h3>
+            <div class="header-info">
+                <span>21 de outubro</span>
+                <div class="header-status">
+                    <div class="status-dot"></div>
+                    <span>Online</span>
+                </div>
+            </div>
+        </header>
+
+        <section class="metrics">
+            <div class="metrics-card">
+                <h4 class="metrics-title">Valor vendido hoje</h4>
+                <span class="metrics-value">R$ 3.500,00</span>
+                <div class="metrics-comparation">
+                    <img src="./assets/trending-down.svg" alt="">
+                    <span>8% abaixo do dia anterior</span>
+                </div>
+            </div>
+
+            <div class="metrics-card">
+                <h4 class="metrics-title">Valor ticket médio</h4>
+                <span class="metrics-value">R$ 85,00</span>
+                <div class="metrics-comparation">
+                    <img src="./assets/trending-up.svg" alt="">
+                    <span>3% acima da semana anterior</span>
+                </div>
+            </div>
+
+            <div class="metrics-card">
+                <h4 class="metrics-title">Valor total da semana</h4>
+                <span class="metrics-value">R$ 12.000,00</span>
+                <div class="metrics-comparation">
+                    <img src="./assets/trending-up.svg" alt="">
+                    <span>15% acima da semana anterior</span>
+                </div>
+            </div>
+        </section>
+
+        <table>
+            <thead>
+                <tr>
+                    <th>Ordem</th>
+                    <th>Cliente</th>
+                    <th>Pedido</th>
+                    <th>Valor</th>
+                    <th>Status</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>#67</td>
+                    <td>Igor</td>
+                    <td>Pizza 4 queijos</td>
+                    <td>R$ 90,00</td>
+                    <td class="table-status">
+                        <div class="table-status-dot warning"></div>
+                        <span>Em andamento</span>
+                    </td>
+                </tr>
+                <tr>
+                    <td>#68</td>
+                    <td>Pedro</td>
+                    <td>Pizza 4 queijos</td>
+                    <td>R$ 90,00</td>
+                    <td class="table-status">
+                        <div class="table-status-dot error"></div>
+                        <span>Cancelado</span>
+                    </td>
+                </tr>
+                <tr>
+                    <td>#69</td>
+                    <td>Igor</td>
+                    <td>Pizza 4 queijos</td>
+                    <td>R$ 90,00</td>
+                    <td class="table-status">
+                        <div class="table-status-dot warning"></div>
+                        <span>Em andamento</span>
+                    </td>
+                </tr>
+                <tr>
+                    <td>#70</td>
+                    <td>Pedro</td>
+                    <td>Pizza 4 queijos</td>
+                    <td>R$ 90,00</td>
+                    <td class="table-status">
+                        <div class="table-status-dot success"></div>
+                        <span>Finalizado</span>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+
+</body>
+
+</html>
